@@ -1,0 +1,10 @@
+name: My-workflow
+
+on: push
+
+jobs:
+  job1:
+    runs-on: kali
+    steps:
+      name: Print random stuff
+      run: echo "random"
